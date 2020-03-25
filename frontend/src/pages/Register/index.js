@@ -15,9 +15,9 @@ export default function Register() {
                     <h1>Registo</h1>
                     <p>Faça o seu registo, entre na plataforma e ajude pessoas a encontrarem os casos da sua ONG.</p>
 
-                    <Link className="back-link" to="/register">
+                    <Link className="back-link" to="/">
                         <FiArrowLeft size={16} color="E02041" />
-                        Não tenho registo
+                        Voltar à página de Login
                     </Link>
 
                 </section>
