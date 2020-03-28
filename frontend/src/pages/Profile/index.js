@@ -16,7 +16,7 @@ export default function Profile() {
     const ongName = localStorage.getItem('ongName');
 
     useEffect(() => {
-        api.get('incidents', {
+        api.get('profile', {
             headers: {
                 Authorization: ongId,
             }
